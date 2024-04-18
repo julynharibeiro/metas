@@ -19,9 +19,8 @@ const contadores = document.querySelectorAll(".contador");
 const tempoObjetivo1 = new Date("2023-10-05T00:00:00");
 const tempoObjetivo2 = new Date("2023-10-05T00:00:00");
 const tempoObjetivo3 = new Date("2023-10-05T00:00:00");
-const tempoObjetivo4 = new Date("2023-10-05T00:00:00");
 //constante da lista dos tempo de objetivo 
-const tempo = [tempoObjetivo1,tempoObjetivo2,tempoObjetivo3,tempoObjetivo4];
+const tempo = [tempoObjetivo1,tempoObjetivo2,tempoObjetivo3];
 
 
 function calculaTempo(tempoObjetivo) {
